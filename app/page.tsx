@@ -137,7 +137,7 @@ export default function Home() {
             ].map((s, i) => (
               <div key={i} style={{ textAlign: 'center', position: 'relative' }}>
                 <div style={{ width: '80px', height: '80px', borderRadius: '50%', backgroundColor: '#54253D', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '24px', margin: '0 auto 16px', color: '#FEF6ED' }}>{s.icon}</div>
-                {i < 3 && <div style={{ position: 'absolute', top: '40px', left: '60%', width: '80%', height: '2px', borderTop: '2px dotted #D9AB6F', display: window?.innerWidth >= 768 ? 'block' : 'none' }} />}
+                
                 <div style={{ color: '#AF636F', fontSize: '14px', fontWeight: 600, marginBottom: '4px' }}>Step {s.step}</div>
                 <h3 style={{ color: '#54253D', fontSize: '16px', fontWeight: 600, marginBottom: '8px' }}>{s.title}</h3>
                 <p style={{ color: '#6C3750', fontSize: '14px' }}>{s.desc}</p>
