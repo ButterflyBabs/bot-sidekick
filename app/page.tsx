@@ -246,6 +246,53 @@ export default function Home() {
         </div>
       </section>
 
+      <section style={{ padding: '80px 24px', backgroundColor: '#EBD1BE20' }}>
+        <div style={{ maxWidth: '1024px', margin: '0 auto' }}>
+          <div style={{ textAlign: 'center', marginBottom: '64px' }}>
+            <h2 style={{ color: '#54253D', fontSize: '36px', fontWeight: 300, marginBottom: '16px' }}>Frequently Asked Questions</h2>
+          </div>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+            {[
+              { q: 'Is an OpenAI API account different from a ChatGPT subscription?', a: 'Yes. A ChatGPT subscription gives you access to the chat interface. An OpenAI API account is separate and provides programmatic access for your Bot Sidekick to communicate with OpenAI\'s services.' },
+              { q: 'Where should I enter my OpenAI API key?', a: 'Enter your API key only in the secure setup field within your Bot Sidekick configuration. Never send it through email, text, or chat.' },
+              { q: 'Should I send my API key to my onboarding guide?', a: 'No. Never share your API key, passwords, tokens, or authentication codes with anyone. Enter sensitive information only in approved secure setup fields.' },
+              { q: 'What happens if my Telegram pairing code expires?', a: 'If your pairing code expires, you can generate a new one by restarting the pairing process in your Bot Sidekick settings.' },
+              { q: 'Can Bot Sidekick send or publish things without my approval?', a: 'No. Your Bot Sidekick operates within the approval boundaries you define in your bot profile. It will prepare content and actions but will not send or publish without your explicit approval.' },
+              { q: 'Where do I add or update my OpenClaw bot profile?', a: 'You can create and update your bot profile through the Bot Sidekick setup process or by accessing your account settings after logging in.' },
+              { q: 'Who should I contact when I am unsure about a setup step?', a: 'Contact Bot Sidekick onboarding support at +1-720-987-2080 when you are uncertain about any step, permission, connection, or security requirement.' },
+            ].map((f, i) => (
+              <details key={i} style={{ backgroundColor: '#FFFFFF', border: '1px solid #D5B2B2', borderRadius: '16px' }}>
+                <summary style={{ padding: '24px', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'space-between', listStyle: 'none' }}>
+                  <span style={{ color: '#54253D', fontWeight: 500 }}>{f.q}</span>
+                  <span style={{ color: '#AF636F' }}>+</span>
+                </summary>
+                <div style={{ padding: '0 24px 24px' }}>
+                  <p style={{ color: '#6C3750' }}>{f.a}</p>
+                </div>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section style={{ padding: '80px 24px', background: 'linear-gradient(135deg, #54253D 0%, #AF636F 100%)' }}>
+        <div style={{ maxWidth: '1280px', margin: '0 auto' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '48px', alignItems: 'center' }}>
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+              <div style={{ fontSize: '120px' }}>🤖</div>
+            </div>
+            <div>
+              <h2 style={{ color: '#FEF6ED', fontSize: '36px', fontWeight: 300, marginBottom: '16px' }}>Your Bot Sidekick is ready to become part of the business.</h2>
+              <p style={{ color: '#D5B2B2', fontSize: '18px', marginBottom: '32px' }}>Complete the setup steps, establish clear approval boundaries, and give your assistant the foundation it needs to support you well.</p>
+              <div style={{ display: 'flex', gap: '16px' }}>
+                <a href='#' style={{ backgroundColor: '#AF636F', color: '#FEF6ED', padding: '16px 32px', borderRadius: '9999px', fontSize: '16px', fontWeight: 600, textDecoration: 'none' }}>Begin Setup</a>
+                <a href='https://clawchitect.com/login' style={{ border: '2px solid #D5B2B2', color: '#FEF6ED', padding: '16px 32px', borderRadius: '9999px', fontSize: '16px', fontWeight: 600, textDecoration: 'none' }}>Open Client Login</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <footer style={{ padding: '48px 24px', backgroundColor: '#54253D' }}>
         <div style={{ maxWidth: '1280px', margin: '0 auto', textAlign: 'center' }}>
           <p style={{ color: '#D5B2B2' }}>© 2026 Bot Sidekick. All rights reserved.</p>
