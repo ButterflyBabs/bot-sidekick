@@ -5,7 +5,7 @@ export default function Home() {
         <div style={{ maxWidth: '1280px', margin: '0 auto', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
             <img src="/logo.jpg" alt="Bot Sidekick" style={{ width: '40px', height: '40px', borderRadius: '8px', objectFit: 'contain' }} />
-            <span style={{ color: '#54253D', fontWeight: 600, fontSize: '20px', fontFamily: 'serif' }}>Bot Sidekick</span>
+            <span style={{ color: '#AF636F', fontWeight: 600, fontSize: '20px', fontFamily: 'serif' }}>Bot Sidekick</span>
           </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '32px' }}>
             <a href="#" style={{ color: '#54253D', fontSize: '14px', textDecoration: 'none' }}>Meet Bot Sidekick</a>
