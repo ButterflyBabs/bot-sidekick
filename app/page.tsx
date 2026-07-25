@@ -123,6 +123,37 @@ export default function Home() {
         </div>
       </section>
 
+      <section style={{ padding: '80px 24px' }}>
+        <div style={{ maxWidth: '1280px', margin: '0 auto' }}>
+          <div style={{ marginBottom: '64px' }}>
+            <h2 style={{ color: '#54253D', fontSize: '36px', fontWeight: 300, marginBottom: '16px' }}>A capable assistant begins with a clear foundation.</h2>
+            <p style={{ color: '#6C3750', fontSize: '18px' }}>Bot Sidekick gives your OpenClaw assistant the access, instructions, boundaries, and communication channels it needs to support your business consistently.</p>
+          </div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '24px' }}>
+            <div style={{ backgroundColor: '#FEF6ED', border: '1px solid #D5B2B2', borderRadius: '16px', padding: '24px', textAlign: 'center' }}>
+              <div style={{ width: '48px', height: '48px', borderRadius: '50%', backgroundColor: '#AF636F20', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 16px', color: '#AF636F' }}>✦</div>
+              <h3 style={{ color: '#54253D', fontSize: '16px', fontWeight: 600, marginBottom: '8px' }}>Clear Setup</h3>
+              <p style={{ color: '#6C3750', fontSize: '14px' }}>Step-by-step guidance for completing each required setup process.</p>
+            </div>
+            <div style={{ backgroundColor: '#FEF6ED', border: '1px solid #D5B2B2', borderRadius: '16px', padding: '24px', textAlign: 'center' }}>
+              <div style={{ width: '48px', height: '48px', borderRadius: '50%', backgroundColor: '#AF636F20', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 16px', color: '#AF636F' }}>✦</div>
+              <h3 style={{ color: '#54253D', fontSize: '16px', fontWeight: 600, marginBottom: '8px' }}>Business Context</h3>
+              <p style={{ color: '#6C3750', fontSize: '14px' }}>A bot profile that teaches your assistant who it serves and what role it performs.</p>
+            </div>
+            <div style={{ backgroundColor: '#FEF6ED', border: '1px solid #D5B2B2', borderRadius: '16px', padding: '24px', textAlign: 'center' }}>
+              <div style={{ width: '48px', height: '48px', borderRadius: '50%', backgroundColor: '#AF636F20', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 16px', color: '#AF636F' }}>✦</div>
+              <h3 style={{ color: '#54253D', fontSize: '16px', fontWeight: 600, marginBottom: '8px' }}>Approval Boundaries</h3>
+              <p style={{ color: '#6C3750', fontSize: '14px' }}>Clear distinctions between what the bot may prepare and what requires human approval.</p>
+            </div>
+            <div style={{ backgroundColor: '#FEF6ED', border: '1px solid #D5B2B2', borderRadius: '16px', padding: '24px', textAlign: 'center' }}>
+              <div style={{ width: '48px', height: '48px', borderRadius: '50%', backgroundColor: '#AF636F20', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 16px', color: '#AF636F' }}>✦</div>
+              <h3 style={{ color: '#54253D', fontSize: '16px', fontWeight: 600, marginBottom: '8px' }}>Secure Connections</h3>
+              <p style={{ color: '#6C3750', fontSize: '14px' }}>Practical reminders for protecting keys, tokens, and private business information.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <footer style={{ padding: '48px 24px', backgroundColor: '#54253D' }}>
         <div style={{ maxWidth: '1280px', margin: '0 auto', textAlign: 'center' }}>
           <p style={{ color: '#D5B2B2' }}>© 2026 Bot Sidekick. All rights reserved.</p>
