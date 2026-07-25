@@ -60,6 +60,69 @@ export default function Home() {
         </div>
       </section>
 
+      <section style={{ padding: '80px 24px', backgroundColor: '#EBD1BE30' }}>
+        <div style={{ maxWidth: '1280px', margin: '0 auto' }}>
+          <div style={{ textAlign: 'center', marginBottom: '64px' }}>
+            <h2 style={{ color: '#54253D', fontSize: '36px', fontWeight: 300, marginBottom: '16px' }}>Setup Guides</h2>
+            <p style={{ color: '#6C3750', fontSize: '18px' }}>Follow the step-by-step instructions below to complete each part of your Bot Sidekick setup.</p>
+          </div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '24px' }}>
+            <div style={{ backgroundColor: '#FFFFFF', border: '1px solid #D5B2B2', borderRadius: '16px', overflow: 'hidden' }}>
+              <div style={{ backgroundColor: '#54253D', padding: '16px', borderBottom: '1px solid #D5B2B240' }}>
+                <span style={{ color: '#D5B2B2', fontSize: '12px', fontWeight: 600 }}>SETUP GUIDE 01</span>
+                <h3 style={{ color: '#FEF6ED', fontSize: '14px', fontWeight: 600, marginTop: '4px' }}>Create Your OpenAI API Key</h3>
+              </div>
+              <div style={{ padding: '48px 24px', backgroundColor: '#FEF6ED', textAlign: 'center', borderBottom: '1px solid #D5B2B240' }}>
+                <div style={{ fontSize: '48px', marginBottom: '16px' }}>📄</div>
+                <p style={{ color: '#6C3750', fontSize: '14px' }}>Step-by-step guide for creating your OpenAI API key.</p>
+              </div>
+              <div style={{ padding: '16px' }}>
+                <button disabled style={{ width: '100%', padding: '8px', borderRadius: '8px', border: '1px solid #D5B2B2', color: '#54253D', fontSize: '14px', fontWeight: 600, opacity: 0.5 }}>Coming Soon</button>
+              </div>
+            </div>
+            <div style={{ backgroundColor: '#FFFFFF', border: '1px solid #D5B2B2', borderRadius: '16px', overflow: 'hidden' }}>
+              <div style={{ backgroundColor: '#54253D', padding: '16px', borderBottom: '1px solid #D5B2B240' }}>
+                <span style={{ color: '#D5B2B2', fontSize: '12px', fontWeight: 600 }}>SETUP GUIDE 02</span>
+                <h3 style={{ color: '#FEF6ED', fontSize: '14px', fontWeight: 600, marginTop: '4px' }}>Add Credits to Your OpenAI API Account</h3>
+              </div>
+              <div style={{ padding: '48px 24px', backgroundColor: '#FEF6ED', textAlign: 'center', borderBottom: '1px solid #D5B2B240' }}>
+                <div style={{ fontSize: '48px', marginBottom: '16px' }}>📄</div>
+                <p style={{ color: '#6C3750', fontSize: '14px' }}>Learn how to add billing credits to your OpenAI account.</p>
+              </div>
+              <div style={{ padding: '16px' }}>
+                <button disabled style={{ width: '100%', padding: '8px', borderRadius: '8px', border: '1px solid #D5B2B2', color: '#54253D', fontSize: '14px', fontWeight: 600, opacity: 0.5 }}>Coming Soon</button>
+              </div>
+            </div>
+            <div style={{ backgroundColor: '#FFFFFF', border: '1px solid #D5B2B2', borderRadius: '16px', overflow: 'hidden' }}>
+              <div style={{ backgroundColor: '#54253D', padding: '16px', borderBottom: '1px solid #D5B2B240' }}>
+                <span style={{ color: '#D5B2B2', fontSize: '12px', fontWeight: 600 }}>SETUP GUIDE 03</span>
+                <h3 style={{ color: '#FEF6ED', fontSize: '14px', fontWeight: 600, marginTop: '4px' }}>Pair Your Bot Sidekick with Telegram</h3>
+              </div>
+              <div style={{ padding: '48px 24px', backgroundColor: '#FEF6ED', textAlign: 'center', borderBottom: '1px solid #D5B2B240' }}>
+                <div style={{ fontSize: '48px', marginBottom: '16px' }}>📄</div>
+                <p style={{ color: '#6C3750', fontSize: '14px' }}>Connect your Bot Sidekick to Telegram for messaging.</p>
+              </div>
+              <div style={{ padding: '16px' }}>
+                <button disabled style={{ width: '100%', padding: '8px', borderRadius: '8px', border: '1px solid #D5B2B2', color: '#54253D', fontSize: '14px', fontWeight: 600, opacity: 0.5 }}>Coming Soon</button>
+              </div>
+            </div>
+            <div style={{ backgroundColor: '#FFFFFF', border: '1px solid #D5B2B2', borderRadius: '16px', overflow: 'hidden' }}>
+              <div style={{ backgroundColor: '#54253D', padding: '16px', borderBottom: '1px solid #D5B2B240' }}>
+                <span style={{ color: '#D5B2B2', fontSize: '12px', fontWeight: 600 }}>SETUP GUIDE 04</span>
+                <h3 style={{ color: '#FEF6ED', fontSize: '14px', fontWeight: 600, marginTop: '4px' }}>Create Your OpenClaw Bot Profile</h3>
+              </div>
+              <div style={{ padding: '48px 24px', backgroundColor: '#FEF6ED', textAlign: 'center', borderBottom: '1px solid #D5B2B240' }}>
+                <div style={{ fontSize: '48px', marginBottom: '16px' }}>📄</div>
+                <p style={{ color: '#6C3750', fontSize: '14px' }}>Set up your bot profile with personality and boundaries.</p>
+              </div>
+              <div style={{ padding: '16px' }}>
+                <button disabled style={{ width: '100%', padding: '8px', borderRadius: '8px', border: '1px solid #D5B2B2', color: '#54253D', fontSize: '14px', fontWeight: 600, opacity: 0.5 }}>Coming Soon</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <footer style={{ padding: '48px 24px', backgroundColor: '#54253D' }}>
         <div style={{ maxWidth: '1280px', margin: '0 auto', textAlign: 'center' }}>
           <p style={{ color: '#D5B2B2' }}>© 2026 Bot Sidekick. All rights reserved.</p>
