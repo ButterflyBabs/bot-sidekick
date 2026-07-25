@@ -213,6 +213,20 @@ export default function Home() {
         </div>
       </section>
 
+      <section style={{ padding: '48px 24px' }}>
+        <div style={{ maxWidth: '1024px', margin: '0 auto' }}>
+          <div style={{ backgroundColor: '#FEF6ED', border: '2px solid #D5B2B2', borderRadius: '16px', padding: '32px' }}>
+            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px' }}>
+              <div style={{ fontSize: '32px' }}>🛡️</div>
+              <div>
+                <h3 style={{ color: '#54253D', fontSize: '20px', fontWeight: 600, marginBottom: '8px' }}>Your access information belongs only to you.</h3>
+                <p style={{ color: '#6C3750', fontSize: '16px' }}>Never send passwords, API keys, Telegram bot tokens, authentication codes, recovery codes, credit card information, or private client information through ordinary email, text, or chat. Enter sensitive information only in the approved secure setup fields.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <footer style={{ padding: '48px 24px', backgroundColor: '#54253D' }}>
         <div style={{ maxWidth: '1280px', margin: '0 auto', textAlign: 'center' }}>
           <p style={{ color: '#D5B2B2' }}>© 2026 Bot Sidekick. All rights reserved.</p>
