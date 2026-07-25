@@ -227,6 +227,25 @@ export default function Home() {
         </div>
       </section>
 
+      <section style={{ padding: '80px 24px', background: 'linear-gradient(135deg, #54253D 0%, #6C3750 100%)' }}>
+        <div style={{ maxWidth: '1280px', margin: '0 auto' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '48px', alignItems: 'center' }}>
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+              <div style={{ fontSize: '120px' }}>🤖</div>
+            </div>
+            <div>
+              <h2 style={{ color: '#FEF6ED', fontSize: '36px', fontWeight: 300, marginBottom: '16px' }}>Need help completing your setup?</h2>
+              <p style={{ color: '#D5B2B2', fontSize: '18px', marginBottom: '24px' }}>Bot Sidekick onboarding support is available when you are uncertain about a step, permission, connection, or security requirement.</p>
+              <p style={{ color: '#D9AB6F', fontSize: '20px', fontWeight: 600, marginBottom: '24px' }}>Support: +1-720-987-2080</p>
+              <div style={{ display: 'flex', gap: '16px' }}>
+                <a href='https://clawchitect.com/login' style={{ backgroundColor: '#AF636F', color: '#FEF6ED', padding: '16px 32px', borderRadius: '9999px', fontSize: '16px', fontWeight: 600, textDecoration: 'none' }}>Client Login</a>
+                <a href='tel:+17209872080' style={{ border: '2px solid #D5B2B2', color: '#FEF6ED', padding: '16px 32px', borderRadius: '9999px', fontSize: '16px', fontWeight: 600, textDecoration: 'none' }}>Contact Support</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <footer style={{ padding: '48px 24px', backgroundColor: '#54253D' }}>
         <div style={{ maxWidth: '1280px', margin: '0 auto', textAlign: 'center' }}>
           <p style={{ color: '#D5B2B2' }}>© 2026 Bot Sidekick. All rights reserved.</p>
