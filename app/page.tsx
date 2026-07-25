@@ -45,7 +45,7 @@ export default function Home() {
               </div>
             </div>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-              <img src="/mascot-transparent.png" alt="Bot Sidekick Mascot" style={{ width: '450px', height: '450px', objectFit: 'contain' }} />
+              <img src="/mascot-drive.png" alt="Bot Sidekick Mascot" style={{ width: '450px', height: '450px', objectFit: 'contain' }} />
             </div>
           </div>
         </div>
