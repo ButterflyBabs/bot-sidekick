@@ -154,6 +154,40 @@ export default function Home() {
         </div>
       </section>
 
+      <section style={{ padding: '80px 24px', backgroundColor: '#EBD1BE20' }}>
+        <div style={{ maxWidth: '1280px', margin: '0 auto' }}>
+          <div style={{ textAlign: 'center', marginBottom: '64px' }}>
+            <h2 style={{ color: '#54253D', fontSize: '36px', fontWeight: 300, marginBottom: '16px' }}>How the setup process works</h2>
+          </div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '32px' }}>
+            <div style={{ textAlign: 'center' }}>
+              <div style={{ width: '80px', height: '80px', borderRadius: '50%', backgroundColor: '#54253D', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '24px', margin: '0 auto 16px', color: '#FEF6ED' }}>🔗</div>
+              <div style={{ color: '#AF636F', fontSize: '14px', fontWeight: 600, marginBottom: '4px' }}>Step 1</div>
+              <h3 style={{ color: '#54253D', fontSize: '16px', fontWeight: 600, marginBottom: '8px' }}>Connect OpenAI</h3>
+              <p style={{ color: '#6C3750', fontSize: '14px' }}>Create the API key and add API billing.</p>
+            </div>
+            <div style={{ textAlign: 'center' }}>
+              <div style={{ width: '80px', height: '80px', borderRadius: '50%', backgroundColor: '#54253D', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '24px', margin: '0 auto 16px', color: '#FEF6ED' }}>💬</div>
+              <div style={{ color: '#AF636F', fontSize: '14px', fontWeight: 600, marginBottom: '4px' }}>Step 2</div>
+              <h3 style={{ color: '#54253D', fontSize: '16px', fontWeight: 600, marginBottom: '8px' }}>Connect Telegram</h3>
+              <p style={{ color: '#6C3750', fontSize: '14px' }}>Pair the Telegram account you will use to communicate with your bot.</p>
+            </div>
+            <div style={{ textAlign: 'center' }}>
+              <div style={{ width: '80px', height: '80px', borderRadius: '50%', backgroundColor: '#54253D', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '24px', margin: '0 auto 16px', color: '#FEF6ED' }}>📝</div>
+              <div style={{ color: '#AF636F', fontSize: '14px', fontWeight: 600, marginBottom: '4px' }}>Step 3</div>
+              <h3 style={{ color: '#54253D', fontSize: '16px', fontWeight: 600, marginBottom: '8px' }}>Define the Bot</h3>
+              <p style={{ color: '#6C3750', fontSize: '14px' }}>Create and install the OpenClaw bot profile.</p>
+            </div>
+            <div style={{ textAlign: 'center' }}>
+              <div style={{ width: '80px', height: '80px', borderRadius: '50%', backgroundColor: '#54253D', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '24px', margin: '0 auto 16px', color: '#FEF6ED' }}>✓</div>
+              <div style={{ color: '#AF636F', fontSize: '14px', fontWeight: 600, marginBottom: '4px' }}>Step 4</div>
+              <h3 style={{ color: '#54253D', fontSize: '16px', fontWeight: 600, marginBottom: '8px' }}>Confirm and Test</h3>
+              <p style={{ color: '#6C3750', fontSize: '14px' }}>Verify that Bot Sidekick can receive and respond to messages.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <footer style={{ padding: '48px 24px', backgroundColor: '#54253D' }}>
         <div style={{ maxWidth: '1280px', margin: '0 auto', textAlign: 'center' }}>
           <p style={{ color: '#D5B2B2' }}>© 2026 Bot Sidekick. All rights reserved.</p>
