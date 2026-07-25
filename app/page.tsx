@@ -1,26 +1,52 @@
 export default function Home() {
   return (
     <main style={{ backgroundColor: '#FEF6ED', minHeight: '100vh' }}>
-      <nav style={{ backgroundColor: '#FEF6ED', borderBottom: '1px solid #D5B2B240', padding: '16px 24px', position: 'fixed', top: 0, left: 0, right: 0, zIndex: 50 }}>
+      <nav style={{ backgroundColor: '#FEF6ED', padding: '16px 24px', position: 'fixed', top: 0, left: 0, right: 0, zIndex: 50, borderRadius: '0 0 24px 24px' }}>
         <div style={{ maxWidth: '1280px', margin: '0 auto', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-            <span style={{ color: '#54253D', fontWeight: 600, fontSize: '20px' }}>Bot Sidekick</span>
+            <img src="/logo.jpg" alt="Bot Sidekick" style={{ width: '40px', height: '40px', borderRadius: '8px', objectFit: 'contain' }} />
+            <span style={{ color: '#54253D', fontWeight: 600, fontSize: '20px', fontFamily: 'serif' }}>Bot Sidekick</span>
           </div>
-          <div>
-            <a href="https://clawchitect.com/login" style={{ color: '#54253D', fontSize: '14px', textDecoration: 'none', marginRight: '16px' }}>Client Login</a>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '32px' }}>
+            <a href="#" style={{ color: '#54253D', fontSize: '14px', textDecoration: 'none' }}>Meet Bot Sidekick</a>
+            <a href="#" style={{ color: '#54253D', fontSize: '14px', textDecoration: 'none' }}>Setup Guide</a>
+            <a href="#" style={{ color: '#54253D', fontSize: '14px', textDecoration: 'none' }}>How It Works</a>
+            <a href="#" style={{ color: '#54253D', fontSize: '14px', textDecoration: 'none' }}>Additional Resources</a>
+            <a href="#" style={{ color: '#54253D', fontSize: '14px', textDecoration: 'none' }}>Support</a>
+          </div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
+            <a href="https://clawchitect.com/login" style={{ color: '#54253D', fontSize: '14px', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '4px' }}>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+              Client Login
+            </a>
             <a href="#" style={{ backgroundColor: '#AF636F', color: '#FEF6ED', padding: '10px 20px', borderRadius: '9999px', fontSize: '14px', fontWeight: 600, textDecoration: 'none' }}>Begin Setup</a>
           </div>
         </div>
       </nav>
 
-      <section style={{ background: 'linear-gradient(135deg, #54253D 0%, #6C3750 55%, #8E5165 100%)', paddingTop: '120px', paddingBottom: '60px' }}>
-        <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '0 24px', textAlign: 'center' }}>
-          <p style={{ color: '#D9AB6F', fontSize: '14px', fontWeight: 600, letterSpacing: '0.1em', marginBottom: '16px' }}>YOUR BUSINESS. SUPPORTED.</p>
-          <h1 style={{ color: '#FEF6ED', fontSize: '48px', fontWeight: 300, lineHeight: 1.2, marginBottom: '24px' }}>Meet the AI assistant designed to work beside you.</h1>
-          <p style={{ color: '#D5B2B2', fontSize: '18px', marginBottom: '32px', maxWidth: '600px', margin: '0 auto 32px' }}>Bot Sidekick helps you set up and use your OpenClaw assistant with clear instructions, thoughtful safeguards, and guided support at every step.</p>
-          <div>
-            <a href="#" style={{ backgroundColor: '#AF636F', color: '#FEF6ED', padding: '16px 32px', borderRadius: '9999px', fontSize: '16px', fontWeight: 600, textDecoration: 'none', marginRight: '16px' }}>Start Your Setup</a>
-            <a href="#" style={{ border: '2px solid #D5B2B2', color: '#FEF6ED', padding: '16px 32px', borderRadius: '9999px', fontSize: '16px', fontWeight: 600, textDecoration: 'none' }}>Explore the Setup Guides</a>
+      <section style={{ background: 'linear-gradient(135deg, #54253D 0%, #6C3750 50%, #8E5165 100%)', paddingTop: '140px', paddingBottom: '80px', borderRadius: '0 0 48px 48px', position: 'relative', overflow: 'hidden' }}>
+        <div style={{ position: 'absolute', top: '20px', left: '20px', width: '100px', height: '100px', border: '2px dotted #D9AB6F40', borderRadius: '50%' }} />
+        <div style={{ position: 'absolute', top: '40px', right: '60px', width: '60px', height: '60px', border: '2px dotted #D9AB6F40', borderRadius: '50%' }} />
+        <div style={{ position: 'absolute', bottom: '40px', left: '60px', width: '80px', height: '80px', border: '2px dotted #D9AB6F40', borderRadius: '50%' }} />
+        <div style={{ position: 'absolute', top: '100px', right: '100px', color: '#D9AB6F', fontSize: '24px' }}>✦</div>
+        <div style={{ position: 'absolute', bottom: '100px', left: '100px', color: '#D9AB6F', fontSize: '20px' }}>✦</div>
+        <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '0 24px' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '48px', alignItems: 'center' }}>
+            <div>
+              <p style={{ color: '#D9AB6F', fontSize: '14px', fontWeight: 600, letterSpacing: '0.15em', marginBottom: '16px' }}>YOUR BUSINESS. SUPPORTED.</p>
+              <h1 style={{ color: '#FEF6ED', fontSize: '52px', fontWeight: 300, lineHeight: 1.15, marginBottom: '24px', fontFamily: 'serif' }}>Meet the AI assistant designed to work beside you.</h1>
+              <p style={{ color: '#D5B2B2', fontSize: '18px', marginBottom: '32px', lineHeight: 1.6 }}>Bot Sidekick helps you set up and use your OpenClaw assistant with clear instructions, thoughtful safeguards, and guided support at every step.</p>
+              <div style={{ display: 'flex', gap: '16px' }}>
+                <a href="#" style={{ backgroundColor: '#AF636F', color: '#FEF6ED', padding: '16px 32px', borderRadius: '9999px', fontSize: '16px', fontWeight: 600, textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                  Start Your Setup
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                </a>
+                <a href="#" style={{ border: '2px solid #D5B2B2', color: '#FEF6ED', padding: '16px 32px', borderRadius: '9999px', fontSize: '16px', fontWeight: 600, textDecoration: 'none' }}>Explore the Setup Guides</a>
+              </div>
+            </div>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+              <img src="/logo.jpg" alt="Bot Sidekick Mascot" style={{ width: '400px', height: '400px', objectFit: 'contain', filter: 'drop-shadow(0 0 30px rgba(217, 171, 111, 0.3))' }} />
+            </div>
           </div>
         </div>
       </section>
